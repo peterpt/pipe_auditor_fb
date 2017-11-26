@@ -37,6 +37,7 @@ class MetasploitModule < Msf::Auxiliary
     'keysvc',
     'lsass',
     'spoolss',
+    'plugplay',
     'net\NtControlPipe0',
     'net\NtControlPipe1',
     'net\NtControlPipe2',
