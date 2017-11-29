@@ -146,7 +146,9 @@ class MetasploitModule < Msf::Auxiliary
     'wkssvc',
     'PIPE_EVENTROOT\CIMV2SCM EVENT PROVIDER',
     'db2remotecmd',
-    'MSSQL$SQLEXPRESS\sql\query'
+    'MSSQL$SQLEXPRESS\sql\query',
+    'MBLG',
+    'MsFteWds'
   ]
 
   # Fingerprint a single host
