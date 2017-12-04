@@ -148,7 +148,12 @@ class MetasploitModule < Msf::Auxiliary
     'db2remotecmd',
     'MSSQL$SQLEXPRESS\sql\query',
     'MBLG',
-    'MsFteWds'
+    'MsFteWds',
+    'Hamachi2.Rpc',
+    'ProtectedPrefix\LocalService\FTHPIPE',
+    'interbas\server\gds_db',
+    'TermSrv_API_service',
+    'ducpipev4'
   ]
 
   # Fingerprint a single host
