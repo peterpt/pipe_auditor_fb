@@ -154,7 +154,12 @@ class MetasploitModule < Msf::Auxiliary
     'interbas\server\gds_db',
     'TermSrv_API_service',
     'ducpipev4',
-    'GoogleCrashServices\S-1-5-18-x64'
+    'GoogleCrashServices\S-1-5-18-x64',
+    'ci_skads',
+    'SQLLocal\MSSQLSERVER',
+    'sql\query',
+    'mcvssnmp',
+    'CPFATP_3764_v4.0.30319'
   ]
 
   # Fingerprint a single host
