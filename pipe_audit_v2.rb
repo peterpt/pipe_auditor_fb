@@ -153,7 +153,8 @@ class MetasploitModule < Msf::Auxiliary
     'ProtectedPrefix\LocalService\FTHPIPE',
     'interbas\server\gds_db',
     'TermSrv_API_service',
-    'ducpipev4'
+    'ducpipev4',
+    'GoogleCrashServices\S-1-5-18-x64'
   ]
 
   # Fingerprint a single host
