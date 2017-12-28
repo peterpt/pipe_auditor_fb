@@ -159,7 +159,10 @@ class MetasploitModule < Msf::Auxiliary
     'SQLLocal\MSSQLSERVER',
     'sql\query',
     'mcvssnmp',
-    'CPFATP_3764_v4.0.30319'
+    'CPFATP_3764_v4.0.30319',
+    'DropboxDataPipe',
+    'DropboxPipe_1',
+    'dbxsvc'
   ]
 
   # Fingerprint a single host
